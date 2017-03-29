@@ -31,8 +31,7 @@ Jayden Tan        jayden91@uw.edu
   3) We want to begin coding for RobotC but it requires a firmware update for our EV3 board which we do not have a usb for.
       * We looked for a usb but cannot find one. May have to do that tomorrow.
   4) From 2:45 to 4:30 we worked on building the robot.
-      * Building the car was easy, based off the RileyRover build.
-      * Attaching the sensors was difficult.
+      * Building the car was easy, but attaching the sensors was difficult.
           * We built a cage that sticks out the front and attached two swiveling arms that would press the sensors. This worked but we are concerned that there will be a skinny obstacle in front that it doesn't hit.
           * altered to have one bar in the center that would press both arms if hit in center. This does not work very well.
           * Removed arms and instead had one arm in the center that would press both if hit center, left if hit from left, right if hit from right. This seems to work the best.
