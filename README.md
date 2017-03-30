@@ -7,6 +7,11 @@ Gabriel Summers   ghs9@uw.edu
 
 Jayden Tan        jayden91@uw.edu
 
+## Agreements:
+  1) We are available MWFSaSu all day. TTH available 10-12:30
+  2) We will use github to host our journal and code.
+  3) simple plan is to use the RileyRover basic body build 
+
 ## 3/28/2017
   1) Made team
   2) Counted out pieces of kit
@@ -39,3 +44,14 @@ Jayden Tan        jayden91@uw.edu
           * Tested it (without actually running cause we dont have usb to update firmware) manually by pressing it up against obstacles and it works like it should.
           * We have a concern that the sensers may be stuck pushed half in after bar presses against them if the spring inside the sensor doesn't push hard enough to clear the arm. This is something that we will be able to see better once we get code running.
   5) We plan to meet again durring class tomorrow, 3/30/17 at 8:00AM
+  
+## 3/30/17
+  1) Team met for lab starting at 9:09AM
+  2) Liscence is expired on mindstorms for the RobotC environment.
+      * Talked to Fowler and Lab manager. They said they would send an email and get it sorted out.
+  3) While waiting for liscencing issue, we ran demo program already installed on the brick. It seems to work perfectly but it is a limited test (just back and forth movement).
+  4) We tried to connect USB from brick to computer, nothing happended.
+  5) Jayden is now trying a different coputer to see if the IDE will work.
+      * It didn't.
+  6) We used the lego graphical IDE because that works and made a simple program that runs forward and then runs backward. This works perfectly and it ended up in relatively the same spot (about 3in off).
+  7) Plan to meet monday 4/3/17 at 1:30PM
