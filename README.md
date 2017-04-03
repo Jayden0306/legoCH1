@@ -64,6 +64,8 @@ Jayden Tan        jayden91@uw.edu
   4) We have been viewing some internet resources on RobotC for when we get started writing code.
   5) While Jayden tries to download the trial on his laptop. I go through online tutorials on RobotC.
   6) We could not download the trial successfully on the laptop so we are now going to Snoqualmie building to check out a surface. Hopefully that works.
+      * This doesn't work since we cannot download software onto the library's surfaces.
+  7) We are calling it a day and plan to meet tomorrow during class. 4/4/17 at 8:00AM
   
   
   
