@@ -55,3 +55,16 @@ Jayden Tan        jayden91@uw.edu
       * It didn't.
   6) We used the lego graphical IDE because that works and made a simple program that runs forward and then runs backward. This works perfectly and it ended up in relatively the same spot (about 3in off).
   7) Plan to meet monday 4/3/17 at 1:30PM
+  
+  ## 4/3/17
+  1) Team met for lab starting at 2:00PM
+  2) Jayden went to the lab first. He found out that the Robotc IDE is still expired. We could not test our robot without the IDE activate.
+  3) We have decided to download the 10 day free trial for RobotC for lego mindstorms so we can start working on it today.
+      * The VM that we are downloading the trial to is having some issues so we are restarting it.
+  4) We have been viewing some internet resources on RobotC for when we get started writing code.
+  5) While Jayden tries to download the trial on his laptop. I go through online tutorials on RobotC.
+  6) We could not download the trial successfully on the laptop so we are now going to Snoqualmie building to check out a surface. Hopefully that works.
+  
+  
+  
+  
