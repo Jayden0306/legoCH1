@@ -67,6 +67,18 @@ Jayden Tan        jayden91@uw.edu
       * This doesn't work since we cannot download software onto the library's surfaces.
   7) We are calling it a day and plan to meet tomorrow during class. 4/4/17 at 8:00AM
   
-  
+  ## 4/4/17
+  1) Team met for class today at 8:00AM
+  2) We realize that only certain computers in the lab have the correct liscence for the RobotC so now we are downloading the kernal to our EV3 brick.
+  3) We wrote a simple program to move forward.
+  4) next we wrote a program to test bumpers and play sounds.
+  5) Now we are writing a program that moves left and right.
+  6) Now we combine the three programs we wrote to move forward, if it gets touched reverse and go in the opposite direction.
+      * Syntax errors with method call vs. startTask().. We ended up siding with a simple method call.
+  7) Now we test it in the explorer's space. It generally explores but sometimes has issues detecting when both of them are pressed.
+      * We have added a wait to when the first sensor is triggered to when the trigger handler is called to allow time for both of them to be pushed.
+      * We have also added a push bar to the front and increased stability of middle axel to ensure that both have a higher chance of being hit if they should be.
+  8) Testing it in the explorer's space, this new design and sensor handler function work a lot better but there are still improvements to be made.
+  9) We plan tomorrow, 4/5/17 at 3:30PM. For now we have made good progress for today.
   
   
