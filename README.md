@@ -67,7 +67,9 @@ Jayden Tan        jayden91@uw.edu
       * This doesn't work since we cannot download software onto the library's surfaces.
   7) We are calling it a day and plan to meet tomorrow during class. 4/4/17 at 8:00AM
   
-  ## 4/4/17 part 1:
+  ## 4/4/17
+  
+  ### part 1:
   1) Team met for class today at 8:00AM
   2) We realize that only certain computers in the lab have the correct liscence for the RobotC so now we are downloading the kernal to our EV3 brick.
   3) We wrote a simple program to move forward.
@@ -81,11 +83,21 @@ Jayden Tan        jayden91@uw.edu
   8) Testing it in the explorer's space, this new design and sensor handler function work a lot better but there are still improvements to be made.
   9) We plan tomorrow, 4/5/17 at 3:30PM. For now we have made good progress for today.
   
-  ### 4/4/17 part 2:
-      1) Jayden has free period so he added bar and cogs to front of robot while Gabe is in class.
-            * The mods increase pressure so pushes to the front are more recognizeable.
-            * The mods also have a latent feature where pushes from the side are less recognizeable when the test program is run.
-      2) Because the computer has crashed and the robot build is stable and time is short, Jayden calls it a day.
+  ### part 2:
+    1) Jayden has free period so he added bar and cogs to front of robot while Gabe is in class.
+          * The mods increase pressure so pushes to the front are more recognizeable.
+          * The mods also have a latent feature where pushes from the side are less recognizeable when the test program is run.
+    2) Because the computer has crashed and the robot build is stable and time is short, Jayden calls it a day.
   
-  
-  
+  ## 4/5/17
+    1) The team today meets at 3:30
+    2) We begin by remodifying the front.
+        * We move the sensors further apart.
+        * We lengthen the bar to work with the more distant sensors.
+            * To do this We need to raise it a slight bit but this requires rebuilding a large portion of the front
+            * We do this but run into some issues getting parts to match up.
+            * We are concerned that the sensors will now be too sensitive to touches from the side. But we need to test before we can say for certain.
+            * Attaching wheels to the front has turned out to be more difficult than we thought as we do not want it to be too wide but we still want to differentiate sides from front pushes respectively.
+            
+   3) We begin by researching some more robotC topics (array initialization, random library) to help in our implementation of biased random walking.
+   4) We plan to meet again tomorrow at 8:00AM in lab.
