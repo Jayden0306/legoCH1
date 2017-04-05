@@ -67,7 +67,7 @@ Jayden Tan        jayden91@uw.edu
       * This doesn't work since we cannot download software onto the library's surfaces.
   7) We are calling it a day and plan to meet tomorrow during class. 4/4/17 at 8:00AM
   
-  ## 4/4/17
+  ## 4/4/17 part 1:
   1) Team met for class today at 8:00AM
   2) We realize that only certain computers in the lab have the correct liscence for the RobotC so now we are downloading the kernal to our EV3 brick.
   3) We wrote a simple program to move forward.
@@ -80,5 +80,12 @@ Jayden Tan        jayden91@uw.edu
       * We have also added a push bar to the front and increased stability of middle axel to ensure that both have a higher chance of being hit if they should be.
   8) Testing it in the explorer's space, this new design and sensor handler function work a lot better but there are still improvements to be made.
   9) We plan tomorrow, 4/5/17 at 3:30PM. For now we have made good progress for today.
+  
+  ### 4/4/17 part 2:
+      1) Jayden has free period so he added bar and cogs to front of robot while Gabe is in class.
+            * The mods increase pressure so pushes to the front are more recognizeable.
+            * The mods also have a latent feature where pushes from the side are less recognizeable when the test program is run.
+      2) Because the computer has crashed and the robot build is stable and time is short, Jayden calls it a day.
+  
   
   
