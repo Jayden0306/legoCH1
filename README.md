@@ -98,6 +98,13 @@ Jayden Tan        jayden91@uw.edu
           * We do this but run into some issues getting parts to match up.
           * We are concerned that the sensors will now be too sensitive to touches from the side. But we need to test before we can say for certain.
           * Attaching wheels to the front has turned out to be more difficult than we thought as we do not want it to be too wide but we still want to differentiate sides from front pushes respectively.
-
-  3) We begin by researching some more robotC topics (array initialization, random library) to help in our implementation of biased random walking.
-  4) We plan to meet again tomorrow at 8:00AM in lab.
+          * The bar works well now good recognition of direction of push.
+          * Small bug encountered where bar could snag on crossbeam causing forward push to be not be recognized.
+          * Fixed the snag bug.
+  3) We research some more robotC topics (array initialization, random library) to help in our implementation of biased random walking.
+  4) We update the code some more.
+      * Changed tones that are played.
+      * recognizes push during turn.
+      * shorter backup time.
+      * Started writing biased random handler (commented out for now).
+  5) We plan to meet again tomorrow at 8:00AM in lab.
