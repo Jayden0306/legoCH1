@@ -108,3 +108,21 @@ Jayden Tan        jayden91@uw.edu
       * shorter backup time.
       * Started writing biased random handler (commented out for now).
   5) We plan to meet again tomorrow at 8:00AM in lab.
+  
+  ## 4/6/17
+  
+  1)We spent time work on the CAD file after his class.
+  2)The lego digital designer software was not working. The software UI keep flashing all the time.
+  3)We have to use our own laptop instead of the school computer to work on the CAD file for our robot.
+  
+  ## 4/7/17
+  1) We fixed the implementation of the random walk. 
+      *Its randomness will be more depend on the probability/ratio to determine the direction.
+  2)We spend time the work on the extra creadit: use motor feedback to detect obstacle.
+  3)We were looking for the best fit function call to give useful motor feedback, then we can use the feedback detect obstacle
+  4)The first approach was trying to use the motor encoder function. It didn't work because the function only return the total degree from the start program til end. 
+  5)The second approach was using the motor rpm function. We were expect this function will be able to detect obstacle. It didn't. The robot's left and right wheel rpm is keep switching all the time. Also, the rpm of both motor gets higher and lowers depending on the friction of the ground. We have not figure out the correct threshhold for the rpm.
+  
+  
+  
+  
