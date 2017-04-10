@@ -110,17 +110,45 @@ Jayden Tan        jayden91@uw.edu
   5) We plan to meet again tomorrow at 8:00AM in lab.
   
 ## 4/6/17
+### Part 1
+   1) We are working on the biased random walk. We will implement a Bayes Network where probability of next move is dependent on what we are currently doing.
+   2) Tested it with fowler. Biased Random worked well but had some small bugs with exploration.
+      * We were not stopping immediately after triggering sensor.
+      * We would get stuck occasionally.
+      * and back ups and turns were not random.
+      * Some of the timings were not optimal
+   3) We easily changed the timings and the randomness of backing up to avoid cycles easily.
+   4) We implemented multitasking to make it so the sensors are triggered more reliably.
+      * One of the tasks is causing the motor to move forward and another is just waiting for sensors to be triggered.
+      * We do have an issue where the tasks dont seem to be actually starting.
+          * We are printing lines to the brick to make sure certain blocks of code are being executed.
+          * We just needed to put a while loop on main to make it so the tasks are actually going because before, main would finish and program would terminate.
+          * Messed around with priority but it doesn't seem to be necessary for now so just leaving all priorities at default value.
+    5) We built the front wider to help it avoid getting stuck.
+    6) We changed the battery because it was getting low. Program is now finished. We will meet later today to work on extra credit.
+### Part 2
    1) We spent time work on the CAD file after his class.
    2) The lego digital designer software was not working. The software UI keep flashing all the time.
    3) We have to use our own laptop instead of the school computer to work on the CAD file for our robot.
+   5) Cad file finished, as well as building instructions.
   
 ## 4/7/17
   1) We fixed the implementation of the random walk. 
       * Its randomness will be more depend on the probability/ratio to determine the direction.
-  2) We spend time the work on the extra creadit: use motor feedback to detect obstacle.
+  2) We spend time the work on the extra credit: use motor feedback to detect obstacle.
   3) We were looking for the best fit function call to give useful motor feedback, then we can use the feedback detect obstacle
   4) The first approach was trying to use the motor encoder function. It didn't work because the function only return the total degree from the start program til end. 
   5) The second approach was using the motor rpm function. We were expect this function will be able to detect obstacle. It didn't. The robot's left and right wheel rpm is keep switching all the time. Also, the rpm of both motor gets higher and lowers depending on the friction of the ground. We have not figure out the correct threshhold for the rpm.
+  6) Will meet monday, 4/10/17, cp 206D 2:00PM
+  
+## 4/10/17
+  1) Team got together at 2:00 in lab.
+  2) Researching ways to use servo feedback correctly.
+      * Not sure how because friction of surface would seem to change what default speed should be.
+      * Try doing it. getMotorSpeed doesnt seem to work so we use getMotorRPM.
+      * Doing this we tried to do it where if expectedRPM of either motor drops by more than 5 in a third of a second we would trigger the reverse and turn protocol. This doesn't seem to work as it will just reverse randomly and won't reverse when it is supposed to.
+  3) We are considering now if this is worth the 5% we would get.
+  4) We will think about it and get back tomorrow when we get to class but for now the project should be done. just extra credit to work on.
   
   
   
