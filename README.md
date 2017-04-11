@@ -120,6 +120,7 @@ Jayden Tan        jayden91@uw.edu
    3) We easily changed the timings and the randomness of backing up to avoid cycles easily.
    4) We implemented multitasking to make it so the sensors are triggered more reliably.
       * One of the tasks is causing the motor to move forward and another is just waiting for sensors to be triggered.
+      * Two more tasks handle turning.
       * We do have an issue where the tasks dont seem to be actually starting.
           * We are printing lines to the brick to make sure certain blocks of code are being executed.
           * We just needed to put a while loop on main to make it so the tasks are actually going because before, main would finish and program would terminate.
@@ -145,11 +146,22 @@ Jayden Tan        jayden91@uw.edu
   1) Team got together at 2:00 in lab.
   2) Researching ways to use servo feedback correctly.
       * Not sure how because friction of surface would seem to change what default speed should be.
-      * Try doing it. getMotorSpeed doesnt seem to work so we use getMotorRPM.
+      * Tried doing it. getMotorSpeed doesnt seem to work so we use getMotorRPM.
       * Doing this we tried to do it where if expectedRPM of either motor drops by more than 5 in a third of a second we would trigger the reverse and turn protocol. This doesn't seem to work as it will just reverse randomly and won't reverse when it is supposed to.
   3) We are considering now if this is worth the 5% we would get.
   4) We will think about it and get back tomorrow when we get to class but for now the project should be done. just extra credit to work on.
   
-  
+## 4/11/17
+  1) After lecture today, went to lab.
+  2) Code was finished so we just needed to wait to demo it for Fowler.
+  3) Demoed for Fowler
+      * Worked like intended and got full marks.
+          * Discussed debugging techniques, must remember to use LED lights in future.
+      * Mentioned that we should comment code and turn in but each keep a copy.
+      * Fairly sure Jayden will keep kit moving forward into the next project.
+  4) Commented out code completely so it is readable. 
+  5) Pretty sure majority of the project is finished, still need to write individual reports.
+  6) Converted journal into a more readable format.
+  7) Gabriel will turn in the project when it is completely finished.
   
   
