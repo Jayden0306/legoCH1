@@ -1,4 +1,4 @@
-# legoCH1
+Lego EV3 Challenge 1
 Lego EV3 1st project.
 
 Team 1
