@@ -41,49 +41,64 @@ Agreements (updated throughout):
       * We looked for a usb but cannot find one. May have to do that tomorrow.
   4) From 2:45 to 4:30 we worked on building the robot.
       * Building the car was easy, but attaching the sensors was difficult.
-          - We built a cage that sticks out the front and attached two swiveling arms that would press the sensors. This worked but we are concerned that there will be a skinny obstacle in front that it doesn't hit.
+          - We built a cage that sticks out the front and attached two swiveling arms that would press the sensors. This worked but we
+	  	are concerned that there will be a skinny obstacle in front that it doesn't hit.
           - altered to have one bar in the center that would press both arms if hit in center. This does not work very well.
-          - Removed arms and instead had one arm in the center that would press both if hit center, left if hit from left, right if hit from right. This seems to work the best.
-          - Now we address issue of some parts that swivel "drooping". We attached more bars, added support to EV3 board. It works and looks pretty cool.
-          - Tested it (without actually running cause we dont have usb to update firmware) manually by pressing it up against obstacles and it works like it should.
-          - We have a concern that the sensers may be stuck pushed half in after bar presses against them if the spring inside the sensor doesn't push hard enough to clear the arm. This is something that we will be able to see better once we get code running.
+          - Removed arms and instead had one arm in the center that would press both if hit center, left if hit from left, right if hit	
+	  	from right. This seems to work the best.
+          - Now we address issue of some parts that swivel "drooping". We attached more bars, added support to EV3 board. It works and
+	  	looks pretty cool.
+          - Tested it (without actually running cause we dont have usb to update firmware) manually by pressing it up against obstacles
+	  	and it works like it should.
+          - We have a concern that the sensers may be stuck pushed half in after bar presses against them if the spring inside the
+	  	sensor doesn't push hard enough to clear the arm. This is something that we will be able to see better once we get code
+		running.
   5) We plan to meet again durring class tomorrow, 3/30/17 at 8:00AM
   
 3/30/17
   1) Team met for lab starting at 9:09AM
   2) Liscence is expired on mindstorms for the RobotC environment.
-      * Talked to Fowler and Lab manager. They said they would send an email and get it sorted out.
-  3) While waiting for liscencing issue, we ran demo program already installed on the brick. It seems to work perfectly but it is a limited test (just back and forth movement).
+      		* Talked to Fowler and Lab manager. They said they would send an email and get it sorted out.
+  3) While waiting for liscencing issue, we ran demo program already installed on the brick. It seems to work perfectly but it is a
+  	limited test (just back and forth movement).
   4) We tried to connect USB from brick to computer, nothing happended.
   5) Jayden is now trying a different coputer to see if the IDE will work.
-      * It didn't.
-  6) We used the lego graphical IDE because that works and made a simple program that runs forward and then runs backward. This works perfectly and it ended up in relatively the same spot (about 3in off).
+      		* It didn't.
+  6) We used the lego graphical IDE because that works and made a simple program that runs forward and then runs backward. This works
+  	perfectly and it ended up in relatively the same spot (about 3in off).
   7) Plan to meet monday 4/3/17 at 1:30PM
   
 4/3/17
   1) Team met for lab starting at 2:00PM
-  2) Jayden went to the lab first. He found out that the Robotc IDE is still expired. We could not test our robot without the IDE activate.
+  2) Jayden went to the lab first. He found out that the Robotc IDE is still expired. We could not test our robot without the IDE
+  	activate.
   3) We have decided to download the 10 day free trial for RobotC for lego mindstorms so we can start working on it today.
-      * The VM that we are downloading the trial to is having some issues so we are restarting it.
+     		 * The VM that we are downloading the trial to is having some issues so we are restarting it.
   4) We have been viewing some internet resources on RobotC for when we get started writing code.
   5) While Jayden tries to download the trial on his laptop. I go through online tutorials on RobotC.
-  6) We could not download the trial successfully on the laptop so we are now going to Snoqualmie building to check out a surface. Hopefully that works.
-      * This doesn't work since we cannot download software onto the library's surfaces.
+  6) We could not download the trial successfully on the laptop so we are now going to Snoqualmie building to check out a surface.
+  	Hopefully that works.
+      		* This doesn't work since we cannot download software onto the library's surfaces.
   7) We are calling it a day and plan to meet tomorrow during class. 4/4/17 at 8:00AM
   
 4/4/17
   part 1:
 	  1) Team met for class today at 8:00AM
-	  2) We realize that only certain computers in the lab have the correct liscence for the RobotC so now we are downloading the kernal to our EV3 brick.
+	  2) We realize that only certain computers in the lab have the correct liscence for the RobotC so now we are downloading the
+	  	kernal to our EV3 brick.
 	  3) We wrote a simple program to move forward.
 	  4) next we wrote a program to test bumpers and play sounds.
 	  5) Now we are writing a program that moves left and right.
 	  6) Now we combine the three programs we wrote to move forward, if it gets touched reverse and go in the opposite direction.
 		  * Syntax errors with method call vs. startTask().. We ended up siding with a simple method call.
-	  7) Now we test it in the explorer's space. It generally explores but sometimes has issues detecting when both of them are pressed.
-		  * We have added a wait to when the first sensor is triggered to when the trigger handler is called to allow time for both of them to be pushed.
-		  * We have also added a push bar to the front and increased stability of middle axel to ensure that both have a higher chance of being hit if they should be.
-	  8) Testing it in the explorer's space, this new design and sensor handler function work a lot better but there are still improvements to be made.
+	  7) Now we test it in the explorer's space. It generally explores but sometimes has issues detecting when both of them are
+	  	pressed.
+		  * We have added a wait to when the first sensor is triggered to when the trigger handler is called to allow time for
+		  	both of them to be pushed.
+		  * We have also added a push bar to the front and increased stability of middle axel to ensure that both have a higher
+		  	chance of being hit if they should be.
+	  8) Testing it in the explorer's space, this new design and sensor handler function work a lot better but there are still
+	  	improvements to be made.
 	  9) We plan tomorrow, 4/5/17 at 3:30PM. For now we have made good progress for today. 
   part 2:
 	  1) Jayden has free period so he added bar and cogs to front of robot while Gabe is in class.
@@ -113,22 +128,26 @@ Agreements (updated throughout):
   
 4/6/17
 	Part 1
-	   1) We are working on the biased random walk. We will implement a Bayes Network where probability of next move is dependent on what we are currently doing.
+	   1) We are working on the biased random walk. We will implement a Bayes Network where probability of next move is dependent on
+	   	what we are currently doing.
 	   2) Tested it with fowler. Biased Random worked well but had some small bugs with exploration.
-		  * We were not stopping immediately after triggering sensor.
-		  * We would get stuck occasionally.
-		  * and back ups and turns were not random.
-		  * Some of the timings were not optimal
+		  	* We were not stopping immediately after triggering sensor.
+		  	* We would get stuck occasionally.
+		  	* and back ups and turns were not random.
+		 	* Some of the timings were not optimal
 	   3) We easily changed the timings and the randomness of backing up to avoid cycles easily.
 	   4) We implemented multitasking to make it so the sensors are triggered more reliably.
-		  * One of the tasks is causing the motor to move forward and another is just waiting for sensors to be triggered.
-		  * Two more tasks handle turning.
-		  * We do have an issue where the tasks dont seem to be actually starting.
-			  - We are printing lines to the brick to make sure certain blocks of code are being executed.
-			  - We just needed to put a while loop on main to make it so the tasks are actually going because before, main would finish and program would terminate.
-			  - Messed around with priority but it doesn't seem to be necessary for now so just leaving all priorities at default value.
+		  	* One of the tasks is causing the motor to move forward and another is just waiting for sensors to be triggered.
+		  	* Two more tasks handle turning.
+		  	* We do have an issue where the tasks dont seem to be actually starting.
+			  	- We are printing lines to the brick to make sure certain blocks of code are being executed.
+			  	- We just needed to put a while loop on main to make it so the tasks are actually going because before,
+					main would finish and program would terminate.
+			  	- Messed around with priority but it doesn't seem to be necessary for now so just leaving all priorities
+					at default value.
 		5) We built the front wider to help it avoid getting stuck.
-		6) We changed the battery because it was getting low. Program is now finished. We will meet later today to work on extra credit.
+		6) We changed the battery because it was getting low. Program is now finished. We will meet later today to work on extra
+			credit.
 	Part 2
 	   1) We spent time work on the CAD file after his class.
 	   2) The lego digital designer software was not working. The software UI keep flashing all the time.
@@ -137,11 +156,14 @@ Agreements (updated throughout):
   
 4/7/17
   1) We fixed the implementation of the random walk. 
-      * Its randomness will be more depend on the probability/ratio to determine the direction.
+      		* Its randomness will be more depend on the probability/ratio to determine the direction.
   2) We spend time the work on the extra credit: use motor feedback to detect obstacle.
   3) We were looking for the best fit function call to give useful motor feedback, then we can use the feedback detect obstacle
-  4) The first approach was trying to use the motor encoder function. It didn't work because the function only return the total degree from the start program til end. 
-  5) The second approach was using the motor rpm function. We were expect this function will be able to detect obstacle. It didn't. The robot's left and right wheel rpm is keep switching all the time. Also, the rpm of both motor gets higher and lowers depending on the friction of the ground. We have not figure out the correct threshhold for the rpm.
+  4) The first approach was trying to use the motor encoder function. It didn't work because the function only return the total degree
+  	from the start program til end. 
+  5) The second approach was using the motor rpm function. We were expect this function will be able to detect obstacle. It didn't. The
+  	robot's left and right wheel rpm is keep switching all the time. Also, the rpm of both motor gets higher and lowers depending on
+	the friction of the ground. We have not figure out the correct threshhold for the rpm.
   6) Will meet monday, 4/10/17, cp 206D 2:00PM
   
 4/10/17
@@ -149,9 +171,12 @@ Agreements (updated throughout):
   2) Researching ways to use servo feedback correctly.
       * Not sure how because friction of surface would seem to change what default speed should be.
       * Tried doing it. getMotorSpeed doesnt seem to work so we use getMotorRPM.
-      * Doing this we tried to do it where if expectedRPM of either motor drops by more than 5 in a third of a second we would trigger the reverse and turn protocol. This doesn't seem to work as it will just reverse randomly and won't reverse when it is supposed to.
+      * Doing this we tried to do it where if expectedRPM of either motor drops by more than 5 in a third of a second we would trigger
+      	the reverse and turn protocol. This doesn't seem to work as it will just reverse randomly and won't reverse when it is supposed
+	to.
   3) We are considering now if this is worth the 5% we would get.
-  4) We will think about it and get back tomorrow when we get to class but for now the project should be done. just extra credit to work on.
+  4) We will think about it and get back tomorrow when we get to class but for now the project should be done. Just extra credit to work
+  	on.
   
 4/11/17
   1) After lecture today, went to lab.
